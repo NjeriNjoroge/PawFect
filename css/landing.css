@@ -1,6 +1,19 @@
 .navbar-default {
   background-color:#FF5F6D;
  }
+ #myCarousel{
+   padding-top: 5%;
+ }
+ .carousel-caption.tagline{
+   align-content: center;
+ }
+
+body{
+  font-family: 'Spectral', serif;
+}
+
+
 .panel-footer{
-  background-color: #FFc371;
+  background-color: #FF5f6d;
+  margin-top: 1.5%;
 }
