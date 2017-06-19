@@ -7,13 +7,6 @@ $(document).ready(function(){
     alert("thank you " + name + " for subscribing to " + plan + "plan.You will get further details in " + email);
 
   });
-
-
-
-
-
-
-
   $("button#healthbutton").click(function(){
     $("#rowhealth").show();
   });
