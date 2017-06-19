@@ -62,5 +62,10 @@ background-color:#39CCCC;
 }
 .bodyfont{
   font-family: 'Spectral', serif;
-  
+}
+#firststory{
+  font-size: 30px;
+}
+#stories{
+  margin: 60px;
 }
