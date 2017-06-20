@@ -158,3 +158,27 @@ background-color:#39CCCC;
 .overlaytext{
   color: black;
 }
+.originalformula{
+  display: none;
+  float: right;
+  color: white;
+  font-size: 30px;
+}
+.genetics{
+  display: none;
+  float: right;
+  color: white;
+  font-size: 30px;
+}
+.wildog{
+  display: none;
+  float: right;
+  color: white;
+  font-size: 30px;
+}
+.topdog{
+  display: none;
+  float: right;
+  color: white;
+  font-size: 30px;
+}
