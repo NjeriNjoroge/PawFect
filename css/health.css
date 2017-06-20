@@ -3,6 +3,7 @@
   padding-top: 30px;
   font-family: 'Mogra', cursive;
   font-size: 75px;
+
 }
 #mainhead{
   margin-left:50px;
@@ -22,7 +23,7 @@
 .carousel-inner > .item > img,
  .carousel-inner > .item > a > img {
      width: 100%;
-     height: 400px !important;
+     height: 500px !important;
  }
  button{
   display: inline-block;
@@ -71,4 +72,83 @@ background-color:#39CCCC;
 }
 .carousel{
   font-size: 24px;
+}
+#pawfeed{
+  background-image: url("https://wallpaperscraft.com/image/dog_sitting_shepherd_115483_1920x1080.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height:300px;
+}
+#topbrand{
+  background-image: url("https://wallpaperscraft.com/image/dog_muzzle_protruding_tongue_115267_1920x1080.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height:500px;
+}
+#mostbought{
+  background-image: url("https://wallpaperscraft.com/image/dog_puppy_lying_sofa_114570_1920x1080.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height:500px;
+}
+#limitededition{
+  background-image: url("https://wallpaperscraft.com/image/dog_walking_winter_114000_1920x1080.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height:300px;
+}
+#dailydeals{
+  background-image: url("https://wallpaperscraft.com/image/dog_muzzle_spotted_collar_112629_1920x1080.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height:500px;
+}
+#feedrow{
+  margin: 55px;
+  display: none;
+}
+
+.feedtext{
+  text-align: center;
+  font-family: 'Spectral', serif;
+  color: white;
+}
+.dogfood{
+  height: 200px;
+  width: 200px;
+}
+.firstpic{
+  margin:30px;
+}
+.category2{
+  margin:40px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #blue;
+}
+.container:hover .overlay {
+  opacity: 7;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }

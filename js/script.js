@@ -9,6 +9,11 @@ $(document).ready(function(){
   });
   $("button#healthbutton").click(function(){
     $("#rowhealth").show();
+    $("#feedrow").hide();
+  });
+  $("button#foodbutton").click(function(){
+    $("#rowhealth").hide();
+    $("#feedrow").show();
   });
 
 });

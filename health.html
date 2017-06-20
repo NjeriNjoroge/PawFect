@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <link href="css/health.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
@@ -18,7 +20,7 @@
   <div class="container">
     <div class="row" id="mainhead">
       <div class="col-md-6">
-        <h1 id="healthheader">PAWCARE<h1>
+        <h1 id="healthheader" class="animated infinite bounce">PAWCARE<h1>
       </div>
       <div class="col-md-6">
         <h2 class="bodyfont">Happy dog</h2>
@@ -46,7 +48,7 @@
       <div class="carousel-caption">
         <h3 class="slidertext" class="bodyfont carousel">PET FOOD</h3>
         <p class="slidertext" class="bodyfont carousel">ENSURE YOUR DOG IS EATING WELL</p>
-        <button class="bodyfont">GET MORE INFORMATION</button>
+        <button class="bodyfont" id="foodbutton">GET MORE INFORMATION</button>
       </div>
     </div>
   </div>
@@ -130,15 +132,24 @@
       </p>
 
     </div>
-    <div class="col-md-6">
-      <img src="http://www.dogbreedslist.info/uploads/allimg/dog-pictures/Border-Collie-2.jpg" class="img-responsive img-rounded"/>
-
+    <div class="col-md-6 container">
+      <img src="http://www.dogbreedslist.info/uploads/allimg/dog-pictures/Border-Collie-2.jpg" class="img-responsive img-rounded image"/>
+      <div class="overlay">
+        <div class="text">
+          HE IS A HAPPY DOG BECAUSE OF PAWCARE
+        </div>
+      </div>
     </div>
 
   </div>
   <div class="row">
     <div class="col-md-6">
-      <img src="http://www.laraffinerie.ca/wp-content/uploads/2014/09/Dog-Food.jpg" class="img-responsive img-rounded"/>
+      <img src="http://www.laraffinerie.ca/wp-content/uploads/2014/09/Dog-Food.jpg" class="img-responsive img-rounded image"/>
+      <div class="overlay">
+        <div class="text">
+          HE IS A HAPPY DOG BECAUSE OF PAWCARE
+        </div>
+      </div>
     </div>
     <div class="col-md-6">
       <p class="bodyfont" id="firststory">
@@ -149,6 +160,37 @@
         the country side chasing frogs and snakes.
       </p>
     </div>
+  </div>
+</div>
+<div class="row" id="feedrow">
+  <div class="row" id="pawfeed">
+    <h1 class="feedtext animated infinite swing">PAWFEED</h3>
+    <h2 class="feedtext animated infinite swing">MAN'S BEST FRIEND DESERVES A TREAT</h2>
+  </div>
+  <div  class="row" id="topbrand">
+    <h1 class="feedtext">TOP BRANDS</h1>
+    <img src="http://stories.barkpost.com/wp-content/uploads/2014/05/Wellness-Core-Canine-Original-Formula-Dry-Dog-Food-076344884088-600x792.jpg" class="dogfood well well-lg firstpic appear disappear"/>
+    <img src="http://stories.barkpost.com/wp-content/uploads/2014/05/dim-011_1z-600x943.jpg" class="dogfood well well-lg firstpic appear disappear"/>
+    <img src="http://stories.barkpost.com/wp-content/uploads/2014/05/29106-1-600x903.jpg" class="dogfood well well-lg firstpic appear disappear"/>
+    <img src="http://stories.barkpost.com/wp-content/uploads/2014/05/33443-1.png" class="dogfood well well-lg firstpic appear disappear"/>
+  </div>
+  <div  class="row" id="mostbought">
+    <h1 class="feedtext">MOST BOUGHT</h1>
+    <img src="http://stories.barkpost.com/wp-content/uploads/2014/05/33443-1.png" class="dogfood well well-lg category2 appear disappear"/>
+    <img src="http://stories.barkpost.com/wp-content/uploads/2014/05/12044-1-600x675.jpg" class="dogfood well well-lg category2 appear disappear"/>
+    <img src="http://stories.barkpost.com/wp-content/uploads/2014/05/480831399318812SL1000-600x864.jpg" class="dogfood well well-lg category2 appear disappear"/>
+  </div>
+  <div  class="row" id="limitededition">
+    <h1 class="feedtext">LIMITED EDITION</h1>
+    <img src="http://stories.barkpost.com/wp-content/uploads/2014/05/mpc-194_1z-600x1004.jpg" class="dogfood well well-lg firstpic appear disappear"/>
+  </div>
+  <div  class="row" id ="dailydeals">
+    <h1 class="feedtext">DAILY DEALS</h1>
+    <img src="http://stories.barkpost.com/wp-content/uploads/2014/05/mpc-194_1z-600x1004.jpg" class="dogfood well well-lg firstpic appear disappear"/>
+    <img src="http://stories.barkpost.com/wp-content/uploads/2014/05/The-Honest-Kitchen-Embark-10lb.jpg.thumb_700x851-600x729.jpg" class="dogfood well well-lg firstpic appear disappear"/>
+    <img src="http://stories.barkpost.com/wp-content/uploads/2014/05/nta-132_1z-600x824.jpg" class="dogfood well well-lg firstpic appear disappear"/>
+    <img src="http://stories.barkpost.com/wp-content/uploads/2014/05/mpc-194_1z-600x1004.jpg" class="dogfood well well-lg firstpic appear disappear"/>
+
   </div>
 </div>
 
