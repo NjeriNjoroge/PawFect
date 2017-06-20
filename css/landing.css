@@ -1,12 +1,21 @@
-.navbar-default {
+.navbar-custom {
   background-color:#FF5F6D;
  }
+
+ ul.nav a:hover {
+   color: white !important;
+ }
+
+
  #myCarousel{
    padding-top: 5%;
  }
- .carousel-caption.tagline{
-   align-content: center;
- }
+
+.tagline{
+  text-align: center;
+  margin-bottom: 30%;
+  font-family:'Boogaloo', cursive;
+}
 
 body{
   font-family: 'Spectral', serif;
