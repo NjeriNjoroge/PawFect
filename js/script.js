@@ -46,5 +46,10 @@ $(document).ready(function(){
     $(".pic4").show();
     $(".productinfo").hide();
   })
+  $(".pic5").click(function(){
+    $(".pic6").hide();
+    $(".pic7").hide();
+    $(".origin").show();
+  })
 
 });
