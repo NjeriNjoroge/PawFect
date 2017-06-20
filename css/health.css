@@ -140,7 +140,10 @@ background-color:#39CCCC;
   transition: .5s ease;
   background-color: #blue;
 }
-.container:hover .overlay {
+.containers:hover .overlay {
+  opacity: 7;
+}
+.containers2:hover .overlay {
   opacity: 7;
 }
 .text {
@@ -151,4 +154,7 @@ background-color:#39CCCC;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+.overlaytext{
+  color: black;
 }
