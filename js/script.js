@@ -10,10 +10,12 @@ $(document).ready(function(){
   $("button#healthbutton").click(function(){
     $("#rowhealth").show();
     $("#feedrow").hide();
+    window.scrollTo( 0, 800 );
   });
   $("button#foodbutton").click(function(){
     $("#rowhealth").hide();
     $("#feedrow").show();
+    window.scrollTo( 0, 1300 );
   });
   $(".pic1").click(function(){
     $(".pic2").hide();
@@ -46,10 +48,6 @@ $(document).ready(function(){
     $(".pic4").show();
     $(".productinfo").hide();
   })
-  $(".pic5").click(function(){
-    $(".pic6").hide();
-    $(".pic7").hide();
-    $(".origin").show();
-  })
+
 
 });
