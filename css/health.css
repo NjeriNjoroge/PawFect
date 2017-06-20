@@ -156,7 +156,9 @@ background-color:#39CCCC;
   -ms-transform: translate(-50%, -50%);
 }
 .overlaytext{
-  color: black;
+  color:black;
+  font-size: 24px;
+  font-family: 'Bowlby One', cursive;
 }
 .originalformula{
   display: none;
