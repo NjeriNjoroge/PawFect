@@ -1,53 +1,30 @@
 $(document).ready(function(){
   $("form#registration").submit(function(event){
+    /*getting input from user*/
     var name=$("input#name").val();
     var email=$("input#email").val();
     var plan=$("input#plan").val();
-
+    /*will pop up after user submits information*/
     alert("thank you " + name + " for subscribing to " + plan + "plan.You will get further details in " + email);
 
   });
+  /*click function for button in carosel*/
   $("button#healthbutton").click(function(){
     $("#rowhealth").show();
     $("#feedrow").hide();
+    /*ensure page scrolls to the right section*/
     window.scrollTo( 0, 800 );
   });
+    /*click function for button in carosel*/
   $("button#foodbutton").click(function(){
     $("#rowhealth").hide();
     $("#feedrow").show();
     window.scrollTo( 0, 1300 );
   });
-  $(".pic1").click(function(){
-    $(".pic2").hide();
-    $(".pic3").hide();
-    $(".pic4").hide();
-    $(".originalformula").show();
-  })
-  $(".pic2").click(function(){
-    $(".pic1").hide();
-    $(".pic3").hide();
-    $(".pic4").hide();
-    $(".topdog").show();
-  })
-  $(".pic3").click(function(){
-    $(".pic2").hide();
-    $(".pic1").hide();
-    $(".pic4").hide();
-    $(".genetics").show();
-  })
-  $(".pic4").click(function(){
-    $(".pic2").hide();
-    $(".pic3").hide();
-    $(".pic1").hide();
-    $(".wildog").show();
-  })
-  $(".productinfo").click(function(){
-    $(".pic1").show();
-    $(".pic2").show();
-    $(".pic3").show();
-    $(".pic4").show();
-    $(".productinfo").hide();
-  })
+  /*click function for the images in food section*/
+  
+
+
 
 
 });
