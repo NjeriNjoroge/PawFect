@@ -10,6 +10,13 @@ header{
 img {
     float:right;
 }
-h2 {
-    float:left;
+
+.jumbotron{
+  margin-top: 3%;
+  background-color: transparent !important;
+  text-align:center;
+  font-family: 'Boogaloo', cursive;
+}
+p{
+  font-family:'Spectral', serif;
 }
