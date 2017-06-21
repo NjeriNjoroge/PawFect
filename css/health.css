@@ -13,7 +13,7 @@
 
 }
 .slidertext{
-  font-size: 25px;
+  font-size:y 25px;
   color: black;
 }
 #myCarousel{
@@ -25,9 +25,9 @@
      height: 400px !important;
  }
  button{
-   display: inline-block;
+  display: inline-block;
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color: #ff5f6d;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -38,4 +38,24 @@
   cursor: pointer;
   margin: 5px;
  }
- 
+.pawvet{
+  text-align: center;
+}
+.col-md-4{
+border: inset;
+}
+#healthrow{
+  background-color:#39CCCC;
+}
+#eligibility{
+  background-color:#39CCCC;
+}
+#plans{
+  background-color:#39CCCC;
+}
+#register{
+background-color:#39CCCC;
+}
+#rowhealth{
+  margin-top: 15px;
+}
