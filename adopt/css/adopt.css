@@ -2,13 +2,14 @@ h1{
   justify-content: center;
   font-size: 300%;
   text-align: center;
+  font-family: 'Pacifico', cursive;
 
-  font-family: 'Spectral', serif;
+/*  font-family: 'Spectral', serif;*/
 }
 
 body{
 
-  font-family: 'Spectral', serif;
+
 
   background: #FF5F6D;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
@@ -20,4 +21,11 @@ body{
 
   height: 400px;
   width: 400px;
+}
+p, li{
+  font-family:Spectral;
+  font-size: 30px;
+}
+.newform{
+  display: none;
 }
