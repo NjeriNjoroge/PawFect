@@ -14,7 +14,7 @@
 
 }
 .slidertext{
-  font-size:y 25px;
+  font-size: 25px;
   color: black;
 }
 #myCarousel{
@@ -123,10 +123,14 @@ background-color:#39CCCC;
   width: 200px;
 }
 .firstpic{
-  margin:30px;
+  /*margin:30px;*/
+  /*height: 100px;
+  width: 100px;*/
+
 }
 .category2{
-  margin:40px;
+  /*margin:40px;*/
+
 }
 .overlay {
   position: absolute;
@@ -195,4 +199,8 @@ body{
 background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+#topbrandspics{
+  margin-left: 30px;
+  margin-right: 30px;
 }
