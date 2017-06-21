@@ -124,7 +124,7 @@
           <input type="text" class="form-control" id="plan"/>
         </div>
         <button class="btn" type="submit" class="bodyfont">SUBMIT FORM</button>
-      <form>
+      </form>
         <p class="bodyfont">Make sure to fill the form to ensure you get<br>
           access to the best dog healthcare<br>
           at the best price.</p>
@@ -198,6 +198,7 @@
       <P class="core">The Wellness Core product line includes seven dry dog foods six which claim to meet AAFCO nutrient profiles for adult.What does this mean? The brand is way above-average with protein and near-average with fat</P>
       <p class="core">Best shopping bet: Amazon.com.<br>
          <strong>PRICE:$53.95 for a 26 lb bag</strong></p>
+         <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#firstmodal" type="button">PURCHASE</button>
     </div>
   </div>
 
@@ -227,7 +228,7 @@
     </div>
   </div>
 
-  <div  class="row" id ="dailydeals">
+  <div class="row" id ="dailydeals">
     <div class="col-md-8">
       <h3 class="core2">EVO DOG FOOD</h3>
       <P class="core2">EVO Dog Food is grain-free and hits the spot with the three major areas of importance. It’s fortified with minerals, easily digestible and high in protein content. It’s also low in carbohydrates, with a mix of ingredients that promote healthy skin and coats.</P>
@@ -239,6 +240,40 @@
     </div>
   </div>
 </div>
+
+<div id="firstmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"></button>
+        <h4 class="modal-title">PURCHASE FORM</h4>
+      </div>
+      <div class="modal-body">
+        <h2>FILL TO BOOK SHIPPING</h2>
+        <form id="purchase">
+          <!-- registration form for the plan -->
+          <div class="form-group">
+            <label for="name" class="bodyfont">ENTER EMAIL</label>
+            <input type="email" class="form-control" id="name"/>
+          </div>
+          <div class="form-group">
+            <label for="email-address" class="bodyfont">ENTER LOCATION FOR SHIPPING</label>
+            <input type="text" class="form-control" id="email"/>
+          </div>
+          <div class="form-group">
+            <label for="name of plan" class="bodyfont">ENTER PAYMENT METHOD</label>
+            <input type="text" class="form-control" id="plan"/>
+          </div>
+          <button class="btn" type="submit" class="bodyfont">SUBMIT FORM</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 </div>
   </body>
 </html>
