@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
+  <script src="js/bootstrap.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="css/landing.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Boogaloo|Spectral" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <title>PawFect Match</title>
+</head>
+
+<body>
+  <!-- NAV BAR SECTION -->
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"><i class="fa fa-paw" aria-hidden="true"></i> PawFect</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#">About</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Adopt</a></li>
+          <li><a href="#">Health</a></li>
+
+          <button type="button" class="btn btn-success animated infinite tada" data-toggle="modal" data-target="#myModal">Donate</button>
+
+        </ul>
+      </div>      <!-- /.navbar-collapse -->
+    </div>    <!-- /.container-->
+  </nav>
+
+  <!-- CAROUSEL SECTION -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel height:350px">
+
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="https://images.pexels.com/photos/47444/pexels-photo-47444.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Pawfect" style="width:100%;">
+        <div class="carousel-caption tagline">
+          <h2><span><i class="fa fa-paw" aria-hidden="true"></i> PawFect Match:<span class='spacer'></span><br /><span class='spacer'></span>Find Your Canine Match</span></h2>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://images.pexels.com/photos/289252/pexels-photo-289252.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Chicago" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="https://images.pexels.com/photos/341378/pexels-photo-341378.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="New York" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="https://images.pexels.com/photos/162349/dog-hybrid-animal-lying-162349.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="New York" style="width:100%;">
+
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- END -->
+
+  <!-- SOCIAL MEDIA -->
+  <div class="panel-footer">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Connect with us</h3>
+        <ul><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> Facebook</ul>
+        <ul><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> Twitter</ul>
+        <ul><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> Instagram</ul>
+      </div>
+      <!-- END -->
+
+      <!-- HEAR ABOUT US SECTION -->
+      <div class="col-xs-4">
+        <h3>Hear our stories</h3>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" placeholder="Your e-mail" name="email">
+        </div>
+        <p>Don't miss out on PawFect Match updates! Sign up with your email address to receive all the latest news and info about pets we are helping and ways you can support us.</p>
+      </div>      <!-- END -->
+
+      <!-- CONTACT US -->
+      <div class="col-md-4">
+        <h3>Contact Us</h3>
+        <ul>
+          <li>Within the country</li>
+          <ul>Phone number: 0712345678</ul>
+          <li>For investor information</li>
+          <ul>Please email user@pawfect.com or contact Jane Doe @ 123-456-7891</ul>
+        </ul>
+      </div>      <!-- END colmd4-->
+    </div>
+
+  </div>  <!-- END panel footer -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title">Show Your #suppawt</h2>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <form>
+              <div class="col-xs-4">
+                <div class="form-group">
+                  <p>Thank you for choosing to support PawFect Match.
+                    Your kind gifts will mean more unwanted and poorly pets
+                    live happy, healthy lives.</p>
+                  <label for="email">Name:</label>
+                  <input type="text" class="form-control" placeholder="Enter name" name="email">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Amount For Contribution</label>
+                  <input type="number" class="form-control" id="pesa" placeholder="$" name="pwd">
+                </div>
+                <div>
+                  <label for="pwd">Mode of Payment</label>
+                  <div>
+                    <img src="img/mastercard.png" alt="">
+                    <img src="img/paypal.png" alt="">
+                    <img src="img/visa.png" alt="">
+                  </div>
+                </div>
+
+            </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Submit</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

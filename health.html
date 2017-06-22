@@ -3,26 +3,37 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/health.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/sweetalert.css" rel="stylesheet">
+
   <script src="js/jquery-3.2.1.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/sweetalert.min.js"></script>
+  <script src="js/sweetalert.dev.js"></script>
+
   <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bowlby+One" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Mogra|Spectral" rel="stylesheet">
   <title>PAWCARE</title>
 </head>
 
 <body>
+  <!-- container for making whole body responsive -->
   <div class="container">
+    <!-- code for main header -->
     <div class="row" id="mainhead">
       <div class="col-md-6">
-        <h1 id="healthheader">PAWCARE<h1>
+        <!-- class animate to animate pawcare text -->
+        <h1 id="healthheader" class="animated bounce">PAWCARE<h1>
       </div>
       <div class="col-md-6">
-        <h2>Happy dog</h2>
-        <h2>Happy life</h2>
+        <h2 class="bodyfont">Happy dog</h2>
+        <h2 class="bodyfont">Happy life</h2>
       </div>
     </div>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -36,17 +47,19 @@
     <div class="item active">
       <img src="https://wallpaperscraft.com/image/dog_road_friend_73169_1920x1080.jpg" alt="dog" style="height:500px;">
       <div class="carousel-caption">
-        <h3 class="slidertext">PET HEALTH</h3>
-        <p class="slidertext">MAKE SURE YOUR DOG IS ALWAYS HEALTHY</p>
-        <button>GET MORE INFORMATION</button>
+        <h3 class="slidertext" class="bodyfont carousel">PET HEALTH</h3>
+        <p class="slidertext" class="bodyfont carousel">MAKE SURE YOUR DOG IS ALWAYS HEALTHY</p>
+        <!--button to make health section appear -->
+        <button id="healthbutton" class="bodyfont animated infinite pulse">GET MORE INFORMATION</button>
       </div>
     </div>
     <div class="item">
-      <img src="https://wallpaperscraft.com/image/dog_muzzle_collar_115579_1280x1024.jpg" alt="DOG" style="height:500px;">
+      <img src="http://media.cleveland.com/business_impact/photo/portfolio-image-9w-at-300-jpg-1ed6502507f441b5.jpg" alt="DOG" style="height:500px;">
       <div class="carousel-caption">
-        <h3 class="slidertext">PET FOOD</h3>
-        <p class="slidertext">ENSURE YOUR DOG IS EATING WELL</p>
-        <button>GET MORE INFORMATION</button>
+        <h3 class="slidertext" class="bodyfont carousel">PET FOOD</h3>
+        <p class="slidertext" class="bodyfont carousel">ENSURE YOUR DOG IS EATING WELL</p>
+        <!-- button to make food section appear -->
+        <button class="bodyfont animated infinite pulse" id="foodbutton">GET MORE INFORMATION</button>
       </div>
     </div>
   </div>
@@ -60,70 +73,232 @@
    <span class="sr-only">Next</span>
  </a>
 </div>
+<!-- row with health submit form header-->
 <div class="row" id="rowhealth">
   <div class="row" id="healthrow">
-    <h1 class="pawvet">PAWVET</h1>
-    <p class="pawvet">Give your pet the best<br>
+    <h1 class="pawvet" class="bodyfont">PAWVET</h1>
+    <p class="pawvet" class="bodyfont">Give your pet the best<br>
       medical attention at the best
       price</p>
   </div>
+  <!-- row with main content on health for the dog it is hidden-->
   <div class="row">
     <div class="col-md-4" id="eligibility">
-      <h1 class="pawvet">CHECK ELIGIBILITY</h1>
-      <p>Find out if your <br>
+      <h1 class="pawvet" class="bodyfont">CHECK ELIGIBILITY</h1>
+      <p class="bodyfont">Find out if your <br>
         dog meets the minimum requirements to<br>
         get treated<p>
         <ol>
-          <li>The animal must have been<br>rescued within the last<br>year</li>
-          <li>The dog must be a pure breed</li>
-          <li>The dog owner must be a member of<br>pawfectmatch<li>
-          <li>The dog must have been registered by pawfectmatch</li>
+          <!-- plan requirements -->
+          <li class="bodyfont">The animal must have been<br>rescued within the last<br>year</li>
+          <li class="bodyfont">The dog must be a pure breed</li>
+          <li class="bodyfont">The dog owner must be a member of<br>pawfectmatch<li>
+          <li class="bodyfont">The dog must have been registered by pawfectmatch</li>
         </ol>
     </div>
     <div class="col-md-4" id="plans">
-      <h1 class="pawvet">VIEW HEALTH PLANS</h1>
-      <p>Pawfectmatch offers a wide variety of<br>
+      <h1 class="pawvet" class="bodyfont">VIEW HEALTH PLANS</h1>
+      <p class="bodyfont">Pawfectmatch offers a wide variety of<br>
         health plans to suit your needs</p>
         <ol>
-          <li>Basic plan--ksh1000 per year.--This plan<br>offers basic treatments<br>for
+          <!-- medical plans amount -->
+          <li class="bodyfont">Basic plan--ksh1000 per year.--This plan<br>offers basic treatments<br>for
           your pet</li>
-          <li>Premium plan--ksh2500 per year.--This plan allows the user to get access<br>
+          <li class="bodyfont">Premium plan--ksh2500 per year.--This plan allows the user to get access<br>
           to ambulance services and<br> immunisation services plus basic<br> medical care.</li>
-          <li>Gold plan--KSH5000 per year-- This plan allows the pet owner to have<br>unlimited access to
+          <li class="bodyfont">Gold plan--KSH5000 per year-- This plan allows the pet owner to have<br>unlimited access to
           pet therapy when the dog is injured and also<br>ALL funeral expenses will be met <br>
           in time of death.The owner also gets to get a new companion<br>incase of death</li>
         </ol>
     </div>
     <div class="col-md-4" id="register">
-      <h1 class="pawvet">REGISTER</h1>
+      <h1 class="pawvet" class="bodyfont">REGISTER</h1>
       <form id="registration">
+        <!-- registration form for the plan -->
         <div class="form-group">
-          <label for="name">ENTER NAME</label>
+          <label for="name" class="bodyfont">ENTER NAME</label>
           <input type="text" class="form-control" id="name"/>
         </div>
         <div class="form-group">
-          <label for="email-address">ENTER EMAIL ADDRESS</label>
+          <label for="email-address" class="bodyfont">ENTER EMAIL ADDRESS</label>
           <input type="email" class="form-control" id="email"/>
         </div>
         <div class="form-group">
-          <label for="name of plan">ENTER NAME OF PLAN </label>
-          <input type="text" class="form-control" id="name"/>
+          <label for="name of plan" class="bodyfont">ENTER NAME OF PLAN </label>
+          <input type="text" class="form-control" id="plan"/>
         </div>
-        <button class="btn" type="submit">SUBMIT FORM</button>
-      <form>
-        <p>Make sure to fill the form to ensure you get<br>
+        <button class="btn" type="submit" class="bodyfont">SUBMIT FORM</button>
+      </form>
+        <p class="bodyfont">Make sure to fill the form to ensure you get<br>
           access to the best dog healthcare<br>
           at the best price.</p>
     </div>
   </div>
 
 </div>
+<div class="row" id="stories">
+  <!-- success stories for dogs using our products -->
+  <div class="row">
+    <div class="col-md-6">
+      <p class="bodyfont" id="firststory">
+        <!-- story of healthy dog -->
+        He was brought to us with a badly injured leg.<br>But due to
+        our well qualified staff and proper <br>
+        healthcare, he was able to walk again.Right now<br>
+        he can be found running through<br>
+        the country side chasing frogs and snakes.
+      </p>
+
+    </div>
+    <div class="col-md-6 containers">
+      <!-- photo of healthy dog -->
+      <img src="http://www.dogbreedslist.info/uploads/allimg/dog-pictures/Border-Collie-2.jpg" class="img-responsive img-rounded image"/>
+      <div class="overlay">
+        <div class="text">
+          <p class="overlaytext">HE IS A HAPPY DOG BECAUSE OF PAWVET</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-md-6 containers2">
+      <img src="http://www.laraffinerie.ca/wp-content/uploads/2014/09/Dog-Food.jpg" class="img-responsive img-rounded image"/>
+      <div class="overlay">
+        <div class="text">
+          <!--healthy dog-->
+          <p class="overlaytext">HE IS A HEALTHY DOG BECAUSE OF PAWFEEDS</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <p class="bodyfont" id="firststory">
+        Fido was brought to us<br>
+        very malnutritioned.He was not<br>
+        able to even walk let alone<br>
+        play with his owner.After<br>
+        one month of being under our<br>
+        diet, Fido was able to regain his<br>
+        strength.Now he happily plays<br>
+        with his owner and lives a good life.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="row" id="feedrow">
+  <!-- row for dog food.It is hidden -->
+  <div class="row" id="pawfeed">
+    <h1 class="feedtext animated  swing">PAWFEED</h3>
+    <h2 class="feedtext animated  swing">MAN'S BEST FRIEND DESERVES A TREAT</h2>
+    <h2 class="feedtext animated  swing">TOP RATED BRANDS!!</h2>
+  </div>
+
+  <div  class="row" id="topbrand">
+    <div class="col-md-4">
+      <img src="http://stories.barkpost.com/wp-content/uploads/2014/05/Wellness-Core-Canine-Original-Formula-Dry-Dog-Food-076344884088.jpg" class="brand1 well well lg img-responsive"/>
+    </div>
+    <div class="col-md-8" id="brand1info">
+      <h3 class="core">WELLNESS CORE</h3>
+      <P class="core">The Wellness Core product line includes seven dry dog foods six which claim to meet AAFCO nutrient profiles for adult.What does this mean? The brand is way above-average with protein and near-average with fat</P>
+      <p class="core">Best shopping bet: Amazon.com.<br>
+         <strong>PRICE:$53.95 for a 26 lb bag</strong></p>
+         <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#firstmodal" type="button">PURCHASE</button>
+    </div>
+  </div>
+
+  <div class="row" id="mostbought">
+    <div class="col-md-8" id="brand2info">
+      <h3 class="core">TASTE OF THE WORLD</h3>
+      <P class="core">The Taste of the Wild product line includes seven dry dog foods, and they’re all pretty great. Our top pick is Taste of the Wild High Prairie Formula, which reached it’s five star rating on DogFoodAdvisor (note: not all of their products did, though none were less than 3.5).</P>
+      <p class="core">Best shopping bet: Amazon.com.<br>
+         <strong>PRICE:$60.95 for a 26 lb bag</strong></p>
+         <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#firstmodal" type="button">PURCHASE</button>
+    </div>
+    <div class="col-md-4">
+      <img src="http://stories.barkpost.com/wp-content/uploads/2014/05/dim-011_1z-600x943.jpg" class="brand2 well well lg img-responsive"/>
+    </div>
+  </div>
 
 
+  <div class="row" id="limitededition">
+    <div class="col-md-4">
+      <img src="http://stories.barkpost.com/wp-content/uploads/2014/05/mpc-194_1z-600x1004.jpg" class="brand2 well well lg img-responsive"/>
 
+    </div>
+    <div class="col-md-8">
+      <h3 class="core4">THE MERRICK CLASSIC</h3>
+      <P class="core4">The merric classic product line includes five dry dog foods, and they’re all pretty great. Our top pick is merrico introvio Formula, which reached it’s five star rating on DogFoodAdvisor.</P>
+      <p class="core4">Best shopping bet: Amazon.com.<br>
+         <strong>PRICE:$90.95 for a 26 lb bag</strong></p>
+         <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#firstmodal" type="button">PURCHASE</button>
+    </div>
+  </div>
 
+  <div class="row" id ="dailydeals">
+    <div class="col-md-8">
+      <h3 class="core3">EVO DOG FOOD</h3>
+      <P class="core3">EVO Dog Food is grain-free and hits the spot with the three major areas of importance. It’s fortified with minerals, easily digestible and high in protein content. It’s also low in carbohydrates, with a mix of ingredients that promote healthy skin and coats.</P>
+      <p class="core3">Best shopping bet: Amazon.com.<br>
+         <strong>PRICE:$100.95 for a 26 lb bag</strong></p>
+         <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#firstmodal" type="button">PURCHASE</button>
+    </div>
+    <div class="col-md-4">
+      <img src="http://stories.barkpost.com/wp-content/uploads/2014/05/nta-132_1z-600x824.jpg" class="brand2 well well lg img-responsive"/>
+    </div>
+  </div>
+</div>
 
+<div id="firstmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"></button>
+        <h4 class="modal-title">PURCHASE FORM</h4>
+      </div>
+      <div class="modal-body">
+        <h2>FILL TO BOOK SHIPPING</h2>
+        <form id="purchase">
+          <!-- registration form for purchase -->
+          <div class="form-group">
+            <label for="name" class="bodyfont">ENTER EMAIL</label>
+            <input type="email" class="form-control" id="name"/>
+          </div>
+          <div class="form-group">
+            <label for="email-address" class="bodyfont">ENTER LOCATION FOR SHIPPING</label>
+            <input type="text" class="form-control" id="email"/>
+          </div>
+          <div class="form-group">
+            <label for="name of plan" class="bodyfont">ENTER PAYMENT METHOD</label>
+            <input type="text" class="form-control" id="plan"/>
+          </div>
+          <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#secondmodal" type="button" data-dismiss="modal">PURCHASE</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div id="secondmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"></button>
+        <h4 class="modal-title">PURCHASE CONFIRMATION</h4>
+      </div>
+      <div class="modal-body">
+        <h3 class="modal2">YOUR PURCHASE ORDER WAS SUCCESSFUL</h3>
+        <h3 class="modal2">DELIVERY WITHIN A WEEK</h3>
+        <h3 class="modal2">NO SHIPPING FEES</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 </div>
   </body>
