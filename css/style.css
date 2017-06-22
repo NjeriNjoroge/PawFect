@@ -1,0 +1,86 @@
+body{
+  background: #FF5F6D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'spectral',serif;
+}
+
+
+
+
+.carousel-caption{
+  text-align: center;
+  font-size: 45px;
+  float: right;
+  padding-bottom: 40px;
+}
+#oscar{
+  color:white;
+  text-align: center;
+  font-size:25px;
+}
+#happy{
+font-size: 25px;
+
+}
+#hachi{
+font-size: 25px;
+
+}
+.item{
+  height:500px;
+overflow: hidden;
+width: 100%;
+}
+iframe{
+margin-left: 10px;
+margin-top: 20px;
+margin-right: 70px;
+margin-bottom: 30px;
+
+}
+p{
+font-size: 20px;
+margin-left: 10px;
+
+}
+#story{
+text-align: center;
+font-family: 'spectral',serif;
+
+}
+#adopt1{
+  margin-left: 150px;
+  width: 620px;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+#adopt{
+  text-align: center;
+  margin-top: 40px;
+}
+#two{
+  margin-top: 20px;
+}
+#angels{
+margin-top: 70px;
+text-align: center;
+margin-right: 200px;
+
+}
+.footer{
+  height: 150px;
+  width: 100%;
+  margin-top: 10px;
+}
+#footer{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+  color:black;
+
+}
+.footer img{
+  height: 100px;
+  padding-top: 30px;
+}
