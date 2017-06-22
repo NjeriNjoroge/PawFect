@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
   <script src="js/bootstrap.min.js" charset="utf-8"></script>
-  <link rel="stylesheet" href="js/script.js">
   <link rel="stylesheet" href="css/landing.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Boogaloo|Spectral" rel="stylesheet">
@@ -34,10 +33,8 @@
           <button type="button" class="btn btn-success animated infinite tada" data-toggle="modal" data-target="#myModal">Donate</button>
 
         </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-->
+      </div>      <!-- /.navbar-collapse -->
+    </div>    <!-- /.container-->
   </nav>
 
   <!-- CAROUSEL SECTION -->
@@ -79,9 +76,6 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-
-
-
   <!-- END -->
 
   <!-- SOCIAL MEDIA -->
@@ -96,25 +90,14 @@
       <!-- END -->
 
       <!-- HEAR ABOUT US SECTION -->
-  <div class="col-xs-4">
+      <div class="col-xs-4">
         <h3>Hear our stories</h3>
-
-
-
-
-      <div class="form-group">
-
-        <label for="email">Email</label>
-
-
-
-        <input type="email" class="form-control" placeholder="Your e-mail" name="email">
-      </div>
-
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" placeholder="Your e-mail" name="email">
+        </div>
         <p>Don't miss out on PawFect Match updates! Sign up with your email address to receive all the latest news and info about pets we are helping and ways you can support us.</p>
-      </div>
-
-      <!-- END -->
+      </div>      <!-- END -->
 
       <!-- CONTACT US -->
       <div class="col-md-4">
@@ -125,18 +108,12 @@
           <li>For investor information</li>
           <ul>Please email user@pawfect.com or contact Jane Doe @ 123-456-7891</ul>
         </ul>
-
-      </div>
-      <!-- END -->
+      </div>      <!-- END colmd4-->
     </div>
 
-  </div>
-  <!-- END -->
+  </div>  <!-- END panel footer -->
 
-  </div>
-
-
-            <!-- Modal -->
+  <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
 
@@ -144,45 +121,40 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Show Your #suppawt</h4>
+          <h2 class="modal-title">Show Your #suppawt</h2>
         </div>
         <div class="modal-body">
           <div class="container">
-      <form>
-        <div class="col-xs-4">
-      <div class="form-group">
+            <form>
+              <div class="col-xs-4">
+                <div class="form-group">
 
-        <label for="email">Name:</label>
+                  <label for="email">Name:</label>
+                  <input type="text" class="form-control" placeholder="Enter name" name="email">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Amount For Contribution</label>
+                  <input type="number" class="form-control" id="pesa" placeholder="$" name="pwd">
+                </div>
+                <div>
+                  <label for="pwd">Mode of Payment</label>
+                  <div>
+                    <img src="img/mastercard.png" alt="">
+                    <img src="img/paypal.png" alt="">
+                    <img src="img/visa.png" alt="">
+                  </div>
+                </div>
 
-
-
-        <input type="text" class="form-control" placeholder="Enter name" name="email">
-      </div>
-
-      <div class="form-group">
-        <label for="pwd">Amount For Contribution</label>
-        <input type="number" class="form-control" id="pesa" placeholder="$" name="pwd">
-      </div>
-
-      <div>
-      <label for="pwd">Mode of Payment</label>
-      <div>
-      <img src="img/mastercard.png" alt="">
-      <img src="img/paypal.png" alt="">
-      <img src="img/visa.png" alt="">
-      </div>
-      </div>
-      <!-- <button type="submit" class="btn btn-danger">Submit</button> -->
-    </form>
-  </div>
-    </div>
-  <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Submit</button>
+            </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Submit</button>
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
-  </div>
 
   </div>
 
