@@ -1,0 +1,33 @@
+.navbar-custom {
+  background-color:#ee9ca7;
+ }
+
+ ul.nav a:hover {
+   color: white !important;
+ }
+
+#myCarousel{
+   padding-top: 5%;
+ }
+
+.tagline{
+  text-align: center;
+  margin-bottom: 30%;
+  font-family:'Boogaloo', cursive;
+}
+
+body{
+  font-family: 'Spectral', serif;
+}
+
+.form-control{
+  
+}
+.notify{
+  height:40px;
+  font-size: 20px;
+}
+.panel-footer{
+  background-color: #ee9ca7;
+  margin-top: 1.5%;
+}
