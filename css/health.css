@@ -1,3 +1,11 @@
+.navbar-custom {
+  background-color:#ee9ca7;
+ }
+
+ ul.nav a:hover {
+   color: white !important;
+ }
+
 #healthheader{
   text-align: center;
   padding-top: 30px;
@@ -76,35 +84,35 @@ background-color:#39CCCC;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height:300px;
+
 }
 #topbrand{
   background-image: url("https://wallpaperscraft.com/image/dog_muzzle_protruding_tongue_115267_1920x1080.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height:400px;
+
 }
 #mostbought{
   background-image: url("https://wallpaperscraft.com/image/dog_puppy_lying_sofa_114570_1920x1080.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height:500px;
+
 }
 #limitededition{
   background-image: url("https://wallpaperscraft.com/image/dog_walking_winter_114000_1920x1080.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height:500px;
+
 }
 #dailydeals{
   background-image: url("https://wallpaperscraft.com/image/dog_muzzle_spotted_collar_112629_1920x1080.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height:500px;
+
 }
 #feedrow{
   margin: 55px;

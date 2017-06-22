@@ -2,7 +2,7 @@ h1{
   justify-content: center;
   font-size: 300%;
   text-align: center;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Spectral', cursive;
 
 /*  font-family: 'Spectral', serif;*/
 }
@@ -20,6 +20,7 @@ body{
 .navbar-custom {
   background-color:#ee9ca7;
   font-family:'Spectral', cursive;
+  font-size: 18px;
  }
 
  ul.nav a:hover {
@@ -31,8 +32,8 @@ body{
   height: 400px;
   width: 400px;
 }
-p, li{
-  font-family:Spectral;
+.col-md-4{
+  font-family:'Spectral', cursive;
   font-size: 30px;
 }
 .newform{
