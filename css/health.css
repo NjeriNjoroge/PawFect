@@ -240,3 +240,7 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
   color: black;
   font-family: 'Bowlby One', cursive;
 }
+.modal2{
+  font-family: 'Bowlby One', cursive;
+  font-size: 19px;
+}
