@@ -5,7 +5,7 @@ $(document).ready(function(){
     var email=$("input#email").val();
     var plan=$("input#plan").val();
     /*will pop up after user submits information*/
-    swal("thank you " + name + " for subscribing to " + plan + "plan.You will get further details in " + email);
+    alert("thank you " + name + " for subscribing to " + plan + "plan.You will get further details in " + email);
   });
 
 
