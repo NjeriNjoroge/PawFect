@@ -15,12 +15,12 @@
 </head>
 
 <body>
-  <div>
-    <h1 class="animated  tada h2">ADOPT A DOG</h1>
-  </div>
-
 <!--first image-->
   <div class="container-fluid">
+    <div>
+      <h1 class="animated  tada h2">ADOPT A DOG</h1>
+    </div>
+
     <div class="row">
 
       <div class="col-md-4">
@@ -31,7 +31,7 @@
             <li>Male</li>
             <li>Brown</li>
             <ul/>
-            <button type="submit" class="btn" id="adoptbutton">Adopt Me!</button>
+            <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#firstmodal" type="button">ADOPT ME!</button>
       </div>
 
       <!--second image-->
@@ -43,7 +43,7 @@
           <li>3 months old</li>
           <li>female</li>
           <li>white</li>
-            <button type="submit" class="btn" id="adoptbutton">Adopt Me!</button>
+              <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#firstmodal" type="button">ADOPT ME!</button>
         </ul>
 
       </div>
@@ -57,7 +57,7 @@
           <li>2 months old</li>
           <li>Male</li>
           <li>Brown</li>
-            <button type="submit" class="btn" id="adoptbutton">Adopt Me!</button>
+            <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#firstmodal" type="button">ADOPT ME!</button>
         </ul>
 
       </div>
@@ -72,7 +72,7 @@
       <li>7 months old</li>
       <li>Female</li>
       <li>white and Brown</li>
-        <button type="submit" class="btn" id="adoptbutton">Adopt Me!</button>
+          <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#firstmodal" type="button">ADOPT ME!</button>
     </ul>
 
   </div>
@@ -84,7 +84,7 @@
       <li>4 months old</li>
       <li>Female</li>
       <li>Brown</li>
-        <button type="submit" class="btn" id="adoptbutton">Adopt Me!</button>
+        <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#firstmodal" type="button">ADOPT ME!</button>
     </ul>
 
   </div>
@@ -97,7 +97,7 @@
       <li>2 Years old</li>
       <li>Female</li>
       <li>Brown</li>
-        <button type="submit" class="btn" id="adoptbutton">Adopt Me!</button>
+        <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#firstmodal" type="button">ADOPT ME!</button>
     </ul>
 
   </div>
@@ -112,7 +112,7 @@
           <li>3 Years old</li>
           <li>Female</li>
           <li>Brown</li>
-            <button type="submit" class="btn" id="adoptbutton">Adopt Me!</button>
+  <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#firstmodal" type="button">ADOPT ME!</button>
         </ul>
 
       </div>
@@ -124,9 +124,9 @@
           <li>15 Months old</li>
           <li>Female</li>
           <li>White</li>
-            <button type="submit" class="btn" id="adoptbutton">Adopt Me!</button>
+          <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#firstmodal" type="button">ADOPT ME!</button>
         </ul>
-        
+
 
       </div>
 
@@ -137,7 +137,7 @@
           <li>9 Months old</li>
           <li>Female</li>
           <li>White</li>
-            <button type="submit" class="btn" id="adoptbutton">Adopt Me!</button>
+            <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#firstmodal" type="button">ADOPT ME!</button>
         </ul>
 
 
@@ -148,10 +148,21 @@
     </div>
 
   </div>
-</div>
+
 
 <!--form-->
-<div id="blanks">
+<div id="firstmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data dismiss="modal" ></button>
+        <h4 class="modal-title">ADOPTION FORM</h4>
+      </div>
+      <div class="modal-body">
+        <h2>FILL TO COMPLETE ADOPTION</h2>
+        <!--<form id="adoption">
+          <!adoption form-->
+    <!--<div id="blanks">-->
       <form class="newform">
          <div class="form-group">
             <label for="name">Name</label>
@@ -167,15 +178,45 @@
                 <label for="number">Phone Number</label>
                  <input id="number" class="form-control" type="text">
                </div>
-               <button type="submit" class="btn" id="adoptbutton">Submit</button>
-
-
+               <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#secondmodal" type="button" data-dismiss="modal">submit</button>
              </form>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+           </div>
+
+         </div>
+
+       </div>
+     </div>
+
+</div>
+<!--second modal-->
+<div id="secondmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"></button>
+        <h4 class="modal-title">SUCCESSFUL</h4>
+
+      </div>
+      <div class="modal-body">
+        <h3 class="modal2">ONE OF OUR AGENTS WILL BE IN TOUCH WITH YOU</h3>
+        <h3 class="modal2">BEFORE THE DAY ENDS.</h3>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
 
 
-
-
-
+</div>
 
 
 
