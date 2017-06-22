@@ -5,8 +5,13 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
 font-family: 'spectral',serif;
 }
 
+.navbar-custom {
+  background-color:#ee9ca7;
+ }
 
-
+ ul.nav a:hover {
+   color: white !important;
+ }
 
 .carousel-caption{
   text-align: center;
