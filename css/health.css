@@ -213,9 +213,9 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
 
 .core{
   text-align: center;
-  font-size: 100%;
+  font-size: 22px;
   color: white;
-  font-family: monospace;
+  font-family: 'Bowlby One', cursive;
 }
 .brand2{
   height: 65%;
@@ -224,7 +224,19 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
 }
 .core2{
   text-align: center;
-  font-size: 100%;
+  font-size: 22px;
+  color: white;
+  font-family: 'Bowlby One', cursive;
+}
+.core3{
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  font-family: 'Bowlby One', cursive;
+}
+.core4{
+  text-align: center;
+  font-size: 22px;
   color: black;
-  font-family: monospace;
+  font-family: 'Bowlby One', cursive;
 }
