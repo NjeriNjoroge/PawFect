@@ -13,6 +13,10 @@ font-family: 'spectral',serif;
    color: white !important;
  }
 
+ #myCarousel{
+   margin-top:3%;
+ }
+
 .carousel-caption{
   text-align: center;
   font-size: 45px;

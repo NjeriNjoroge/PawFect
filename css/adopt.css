@@ -1,8 +1,8 @@
 h1{
   justify-content: center;
-  font-size: 300%;
+  font-size: 30px;
   text-align: center;
-  font-family: 'Spectral', cursive;
+  font-family: 'Boogaloo', cursive;
 
 /*  font-family: 'Spectral', serif;*/
 }
@@ -15,6 +15,7 @@ body{
   background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
+  margin-top: 3%;
 }
 
 .navbar-custom {
@@ -34,7 +35,7 @@ body{
 }
 .col-md-4{
   font-family:'Spectral', cursive;
-  font-size: 30px;
+  font-size: 20px;
 }
 .newform{
   display: none;
