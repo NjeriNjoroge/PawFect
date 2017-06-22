@@ -20,8 +20,14 @@ body{
   font-family: 'Spectral', serif;
 }
 
-.form-control{
-  
+.parallax {
+    background-image: url("https://images.pexels.com/photos/57627/pexels-photo-57627.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+    margin-top: 3%;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .notify{
   height:40px;
